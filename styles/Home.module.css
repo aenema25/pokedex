@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.buscador {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buscador > input {
+  all: unset;
+  padding:1em;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+.button {
+  all: unset;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5em;
+  padding: 0.4em;
+  background-color: #ffcb05;
+  border: 5px solid #2a75bb;
+  border-radius: 10px;
+}
