@@ -25,7 +25,7 @@ git clone https://github.com/aenema25/pokedex.git
 cd pokedex
 ```
 
-Luego ejecuta el siguiente comando ejecutar un servidor que mostrara la pagina en tu computador
+Luego usa el siguiente comando el cual ejecutara un servidor local que mostrara la pagina en tu computador
 
 ```bash
 npm run dev
