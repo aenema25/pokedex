@@ -18,7 +18,7 @@ La aplicación web ocupa la api [PokéAPI](https://pokeapi.co/) la cual entrega 
 
 ## ¡ Empecemos !
 
-Para replicar el poryecto localmente primero debes clonar el respositorio y ingresar a la carpeta del proyecto
+Para replicar el proyecto localmente primero debes clonar el respositorio y ingresar a la carpeta del proyecto
 
 ```bash
 git clone https://github.com/aenema25/pokedex.git
