@@ -7,8 +7,8 @@
 
 ## Tecnologias usadas
 
-*[Next.js](https://nextjs.org/docs/getting-started)
-*[PokéAPI](https://pokeapi.co/)
+* [Next.js](https://nextjs.org/docs/getting-started)
+* [PokéAPI](https://pokeapi.co/)
 
 ## Descripción
 
@@ -39,4 +39,4 @@ Ya con el servidor funcionando en tu navegador ingresa a la siguiente web [http:
 
 En los siguiente link podras revisar la aplicación web funcionando.
 
-*[Netlify](https://pokedex-aenema25.netlify.app/)
+* [Netlify](https://pokedex-aenema25.netlify.app/)
