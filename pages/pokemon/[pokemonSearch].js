@@ -32,11 +32,11 @@ export default function Pokemon() {
 
     const getPokemon = () => {
         const localPokedex = (localStorage.getItem('pokedex')) ? JSON.parse(localStorage.getItem('pokedex')) : []
-        const findPokemon = localPokedex.find(poke => poke.name === pokemonSearch)
+        const findPokemon = localPokedex.find(poke => poke.name === pokemonSearch.toLowerCase())
         if (findPokemon) {
             setPokemonData(findPokemon)
         } else {
-            fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonSearch}`, { method: 'GET' })
+            fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonSearch.toLowerCase()}`, { method: 'GET' })
                 .then(response => response.text())
                 .then(response => {
                     if (response !== "Not Found") {
@@ -51,11 +51,11 @@ export default function Pokemon() {
     }
     const getPokemonSpecies = () => {
         const localPokedex = (localStorage.getItem('pokedex-species')) ? JSON.parse(localStorage.getItem('pokedex-species')) : []
-        const findPokemon = localPokedex.find(poke => poke.name === pokemonSearch)
+        const findPokemon = localPokedex.find(poke => poke.name === pokemonSearch.toLowerCase())
         if (findPokemon) {
             setPokemonSpecies(findPokemon)
         } else {
-            fetch(`https://pokeapi.co/api/v2/pokemon-species/${pokemonSearch}`, { method: 'GET' })
+            fetch(`https://pokeapi.co/api/v2/pokemon-species/${pokemonSearch.toLowerCase()}`, { method: 'GET' })
                 .then(response => response.text())
                 .then(response => {
                     if (response !== "Not Found") {
