@@ -39,4 +39,4 @@ Ya con el servidor funcionando en tu navegador ingresa a la siguiente web [http:
 
 En los siguiente link podras revisar la aplicación web funcionando.
 
-*EN CONSTRUCCION*
+*[Netlify](https://pokedex-aenema25.netlify.app/)
