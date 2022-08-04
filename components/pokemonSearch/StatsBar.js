@@ -47,7 +47,7 @@ export default function StatsBar({ progress, name }) {
             <strong>
                 {progress}
             </strong>
-            <div style={styles.progressBackground}>
+            <div className={styles.progressBackground}>
                 <div style={progressBar}></div>
             </div>
         </div>
