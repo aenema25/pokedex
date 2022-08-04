@@ -1,0 +1,26 @@
+.notFound {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 1.3em;
+    padding: 1.5em;
+}
+
+.notFound a {
+    color: #6EA4BB;
+}
+
+.button {
+    all: unset;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 0.4em;
+    background-color: #ffcb05;
+    border: 5px solid #2a75bb;
+    border-radius: 10px;
+}

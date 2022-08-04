@@ -1,0 +1,8 @@
+.infoContent {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-weight: 200;
+}

@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../images/logo.png'
 import Link from 'next/link'
-import Footer from '../components/footer'
 
 export default function Home() {
   const [pokemonName, setPokemonName] = useState()
@@ -19,7 +18,9 @@ export default function Home() {
           <button className={styles.button}>Buscar pokemon</button>
         </Link>
       </div>
-      <Footer />
+      <div>
+        Created with ♥️ by <a href="https://github.com/aenema25" target="_blank"> Oscar Uribe</a>
+      </div>
     </div >
   )
 }
